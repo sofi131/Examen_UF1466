@@ -8,7 +8,7 @@ public class VehiculoMotorizado extends Vehiculo{
     public VehiculoMotorizado(String marca, String modelo, int year_fabricacion, String tipoCombustible) {
         super(marca, modelo, year_fabricacion);
         //pertenece a vehículo
-        this.tipoCombustible = this.tipoCombustible;
+        this.tipoCombustible = tipoCombustible;
     }
 //toString con detalles
     @Override
